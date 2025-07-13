@@ -6,6 +6,7 @@ from app.api.appointment import router as appointment_router
 from app.api.doctor import router as doctor_router
 from app.api.dashboard import router as dashboard_router
 from app.api.patient import router as patient_router
+from app.api.admin import router as admin_router
 from app.db.session import AsyncSessionLocal
 from app.core.address_loader import load_addresses_if_empty
 from app.core.scheduler import start_scheduler
@@ -28,6 +29,7 @@ app.include_router(appointment_router)
 app.include_router(doctor_router)
 app.include_router(dashboard_router)
 app.include_router(patient_router)
+app.include_router(admin_router)
 
 @app.get("/")
 def read_root():
@@ -38,10 +40,11 @@ def read_root():
             "auth": "/api/v1/auth",
             "user": "/api/v1/user", 
             "address": "/api/address",
-            "appointment": "/api/v1/appointment",
-            "doctor": "/api/v1/doctor",
+            "appointment": "/api/v1/appointments",
+            "doctor": "/api/v1/doctors",
             "dashboard": "/api/v1/dashboard",
-            "patient": "/api/v1/patient"
+            "patient": "/api/v1/patients",
+            "admin": "/api/v1/admin"
         },
         "docs": "/docs"
     } 

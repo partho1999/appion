@@ -6,7 +6,7 @@ from app.db.session import get_db
 from app.core.security import create_access_token
 from fastapi.security import OAuth2PasswordRequestForm
 from app.models.user import UserRole
-from app.core.validators import validate_password, validate_mobile, validate_image
+from app.core.validators import validate_password, validate_mobile, validate_image, validate_timeslots
 import os
 import shutil
 
@@ -38,8 +38,21 @@ async def register(
         raise HTTPException(status_code=400, detail="Email already registered.")
     if await get_user_by_mobile(db, mobile):
         raise HTTPException(status_code=400, detail="Mobile number already registered.")
+    
     validate_password(password)
     validate_mobile(mobile)
+    
+    # Validate doctor-specific fields
+    if role == UserRole.doctor:
+        if not all([license_number, experience_years, consultation_fee, available_timeslots, specialization]):
+            raise HTTPException(status_code=400, detail="All doctor fields are required.")
+        # Validate timeslots format
+        try:
+            timeslots_list = [ts.strip() for ts in available_timeslots.split(',')]
+            validate_timeslots(timeslots_list)
+        except Exception as e:
+            raise HTTPException(status_code=400, detail=str(e))
+    
     image_path = None
     if profile_image:
         validate_image(profile_image)
@@ -49,18 +62,18 @@ async def register(
         with open(image_path, "wb") as buffer:
             shutil.copyfileobj(profile_image.file, buffer)
         image_path = os.path.relpath(image_path, os.path.dirname(__file__))
+    
     # Doctor fields
     doctor_fields = {}
     if role == UserRole.doctor:
-        if not all([license_number, experience_years, consultation_fee, available_timeslots, specialization]):
-            raise HTTPException(status_code=400, detail="All doctor fields are required.")
         doctor_fields = {
             "license_number": license_number,
             "experience_years": experience_years,
             "consultation_fee": consultation_fee,
-            "available_timeslots": available_timeslots,
+            "available_timeslots": available_timeslots,  # store as string
             "specialization": specialization,
         }
+    
     user_in = UserCreate(
         full_name=full_name,
         email=email,
