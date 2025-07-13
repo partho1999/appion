@@ -1,840 +1,841 @@
 {
-     "চট্টগ্রাম": {
-         "চট্টগ্রাম": {
-             "জেলা": "চট্টগ্রাম",
-             "উপজেলা": [
-                 "রাঙ্গুনিয়া",
-                 "সীতাকুণ্ড",
-                 "মিরসরাই",
-                 "পটিয়া",
-                 "সন্দ্বীপ",
-                 "বাঁশখালী",
-                 "বোয়ালখালী",
-                 "আনোয়ারা",
-                 "চন্দনাইশ",
-                 "সাতকানিয়া",
-                 "লোহাগাড়া",
-                 "হাটহাজারী",
-                 "ফটিকছড়ি",
-                 "রাউজান",
-                 "কর্ণফুলী",
-                 "চট্টগ্রাম সিটি কর্পোরেশন"
+     "Chittagong": {
+         "Chittagong": {
+             "District": "Chittagong",
+             "Upazila": [
+                 "Rangunia",
+                 "Sitakunda",
+                 "Mirsharai",
+                 "Patiya",
+                 "Sandwip",
+                 "Banshkhali",
+                 "Boalkhali",
+                 "Anwara",
+                 "Chandanaish",
+                 "Satkania",
+                 "Lohagara",
+                 "Hathazari",
+                 "Fatikchhari",
+                 "Raozan",
+                 "Karnaphuli",
+                 "Chittagong City Corporation"
              ]
          },
-         "কুমিল্লা": {
-             "জেলা": "কুমিল্লা",
-             "উপজেলা": [
-                 "দেবীদ্বার",
-                 "বরুড়া",
-                 "ব্রাহ্মণপাড়া",
-                 "চান্দিনা",
-                 "চৌদ্দগ্রাম",
-                 "দাউদকান্দি",
-                 "হোমনা",
-                 "লাকসাম",
-                 "মুরাদনগর",
-                 "নাঙ্গলকোট",
-                 "কুমিল্লা সদর",
-                 "মেঘনা",
-                 "মনোহরগঞ্জ",
-                 "সদর দক্ষিণ",
-                 "তিতাস",
-                 "বুড়িচং",
-                 "লালমাই",
-                 "কুমিল্লা সিটি কর্পোরেশন"
+         "Comilla": {
+             "District": "Comilla",
+             "Upazila": [
+                 "Debidwar",
+                 "Barura",
+                 "Brahmanpara",
+                 "Chandina",
+                 "Chauddagram",
+                 "Daudkandi",
+                 "Homna",
+                 "Laksam",
+                 "Muradnagar",
+                 "Nangalkot",
+                 "Comilla Sadar",
+                 "Meghna",
+                 "Monoharganj",
+                 "Sadar Dakshin",
+                 "Titas",
+                 "Burichang",
+                 "Lalmai",
+                 "Comilla City Corporation"
              ]
          },
-         "ফেনী": {
-             "জেলা": "ফেনী",
-             "উপজেলা": [
-                 "ছাগলনাইয়া",
-                 "ফেনী সদর",
-                 "সোনাগাজী",
-                 "ফুলগাজী",
-                 "পরশুরাম",
-                 "দাগনভূঁইয়া"
+         "Feni": {
+             "District": "Feni",
+             "Upazila": [
+                 "Chhagalnaiya",
+                 "Feni Sadar",
+                 "Sonagazi",
+                 "Fulgazi",
+                 "Parshuram",
+                 "Daganbhuiyan"
              ]
          },
-         "ব্রাহ্মণবাড়িয়া": {
-             "জেলা": "ব্রাহ্মণবাড়িয়া",
-             "উপজেলা": [
-                 "ব্রাহ্মণবাড়িয়া সদর",
-                 "কসবা",
-                 "নাসিরনগর",
-                 "বাঞ্ছারামপুর",
-                 "সরাইল",
-                 "আশুগঞ্জ",
-                 "আখাউড়া",
-                 "নবীনগর"
+         "Brahmanbaria": {
+             "District": "Brahmanbaria",
+             "Upazila": [
+                 "Brahmanbaria Sadar",
+                 "Kasba",
+                 "Nasirnagar",
+                 "Bancharampur",
+                 "Sarail",
+                 "Ashuganj",
+                 "Akhaura",
+                 "Nabinagar"
              ]
          },
-         "চাঁদপুর": {
-             "জেলা": "চাঁদপুর",
-             "উপজেলা": [
-                 "হাইমচর",
-                 "কচুয়া",
-                 "শাহরাস্তি",
-                 "চাঁদপুর সদর",
-                 "মতলব দক্ষিণ",
-                 "হাজীগঞ্জ",
-                 "মতলব উত্তর",
-                 "ফরিদগঞ্জ"
+         "Chandpur": {
+             "District": "Chandpur",
+             "Upazila": [
+                 "Haimchar",
+                 "Kachua",
+                 "Shahrasti",
+                 "Chandpur Sadar",
+                 "Matlab Dakshin",
+                 "Hajiganj",
+                 "Matlab Uttar",
+                 "Faridganj"
              ]
          },
-         "লক্ষ্মীপুর": {
-             "জেলা": "লক্ষ্মীপুর",
-             "উপজেলা": [
-                 "লক্ষ্মীপুর সদর",
-                 "কমলনগর",
-                 "রায়পুর",
-                 "রামগতি",
-                 "রামগঞ্জ"
+         "Lakshmipur": {
+             "District": "Lakshmipur",
+             "Upazila": [
+                 "Lakshmipur Sadar",
+                 "Kamalnagar",
+                 "Raipur",
+                 "Ramgati",
+                 "Ramganj"
              ]
          },
-         "কক্সবাজার": {
-             "জেলা": "কক্সবাজার",
-             "উপজেলা": [
-                 "কক্সবাজার সদর",
-                 "চকরিয়া",
-                 "কুতুবদিয়া",
-                 "উখিয়া",
-                 "মহেশখালী",
-                 "পেকুয়া",
-                 "রামু",
-                 "টেকনাফ"
+         "Cox's Bazar": {
+             "District": "Cox's Bazar",
+             "Upazila": [
+                 "Cox's Bazar Sadar",
+                 "Chakaria",
+                 "Kutubdia",
+                 "Ukhiya",
+                 "Moheshkhali",
+                 "Pekua",
+                 "Ramu",
+                 "Teknaf"
              ]
          },
-         "খাগড়াছড়ি": {
-             "জেলা": "খাগড়াছড়ি",
-             "উপজেলা": [
-                 "খাগড়াছড়ি সদর",
-                 "দীঘিনালা",
-                 "পানছড়ি",
-                 "লক্ষ্মীছড়ি",
-                 "মহলছড়ি",
-                 "মানিকছড়ি",
-                 "রামগড়",
-                 "মাটিরাঙ্গা",
-                 "গুইমারা"
+         "Khagrachari": {
+             "District": "Khagrachari",
+             "Upazila": [
+                 "Khagrachari Sadar",
+                 "Dighinala",
+                 "Panchhari",
+                 "Lakshmichhari",
+                 "Mahalchhari",
+                 "Manikchhari",
+                 "Ramgarh",
+                 "Matiranga",
+                 "Guimara"
              ]
          },
-         "রাঙ্গামাটি": {
-             "জেলা": "রাঙ্গামাটি",
-             "উপজেলা": [
-                 "রাঙ্গামাটি সদর",
-                 "কাপ্তাই",
-                 "কাউখালী",
-                 "বাঘাইছড়ি",
-                 "বরকল",
-                 "লাঙ্গাডু",
-                 "রাজস্থলী",
-                 "বেলাইছড়ি",
-                 "জুরাইছড়ি",
-                 "নানিয়ারচর"
+         "Rangamati": {
+             "District": "Rangamati",
+             "Upazila": [
+                 "Rangamati Sadar",
+                 "Kaptai",
+                 "Kawkhali",
+                 "Baghaichhari",
+                 "Barkal",
+                 "Langadu",
+                 "Rajasthali",
+                 "Belaichhari",
+                 "Juraichhari",
+                 "Naniarchar"
              ]
          },
-         "নোয়াখালী": {
-             "জেলা": "নোয়াখালী",
-             "উপজেলা": [
-                 "নোয়াখালী সদর",
-                 "কোম্পানীগঞ্জ",
-                 "বেগমগঞ্জ",
-                 "হাতিয়া",
-                 "সুবর্ণচর",
-                 "কবিরহাট",
-                 "সেনবাগ",
-                 "চাটখিল",
-                 "সোনাইমুড়ি"
+         "Noakhali": {
+             "District": "Noakhali",
+             "Upazila": [
+                 "Noakhali Sadar",
+                 "Companyganj",
+                 "Begumganj",
+                 "Hatiya",
+                 "Subarnachar",
+                 "Kabirhat",
+                 "Senbagh",
+                 "Chatkhil",
+                 "Sonaimuri"
              ]
          },
-         "বান্দরবান": {
-             "জেলা": "বান্দরবান",
-             "উপজেলা": [
-                 "বান্দরবান সদর",
-                 "আলীকদম",
-                 "নাইখংছড়ি",
-                 "রোয়াংছড়ি",
-                 "লামা",
-                 "রুমা",
-                 "থানচি"
+         "Bandarban": {
+             "District": "Bandarban",
+             "Upazila": [
+                 "Bandarban Sadar",
+                 "Alikadam",
+                 "Naikhongchhari",
+                 "Rowangchhari",
+                 "Lama",
+                 "Ruma",
+                 "Thanchi"
              ]
          }
      },
-     "রাজশাহী": {
-         "রাজশাহী": {
-             "জেলা": "রাজশাহী",
-             "উপজেলা": [
-                 "পাবা",
-                 "দুর্গাপুর",
-                 "মোহনপুর",
-                 "চারঘাট",
-                 "পুঠিয়া",
-                 "বাঘা",
-                 "গোদাগাড়ী",
-                 "তানোর",
-                 "বাগমারা",
-                 "রাজশাহী সিটি কর্পোরেশন"
+     "Rajshahi": {
+         "Rajshahi": {
+             "District": "Rajshahi",
+             "Upazila": [
+                 "Paba",
+                 "Durgapur",
+                 "Mohanpur",
+                 "Charghat",
+                 "Puthia",
+                 "Bagha",
+                 "Godagari",
+                 "Tanore",
+                 "Bagmara",
+                 "Rajshahi City Corporation"
              ]
          },
-         "সিরাজগঞ্জ": {
-             "জেলা": "সিরাজগঞ্জ",
-             "উপজেলা": [
-                 "বেলকুচি",
-                 "চৌহালী",
-                 "কামারখন্দ",
-                 "কাজীপুর",
-                 "রায়গঞ্জ",
-                 "শাহজাদপুর",
-                 "সিরাজগঞ্জ সদর",
-                 "তাড়াশ",
-                 "উল্লাপাড়া"
+         "Sirajganj": {
+             "District": "Sirajganj",
+             "Upazila": [
+                 "Belkuchi",
+                 "Chauhali",
+                 "Kamarkhand",
+                 "Kazipur",
+                 "Raiganj",
+                 "Shahjadpur",
+                 "Sirajganj Sadar",
+                 "Tarash",
+                 "Ullapara"
              ]
          },
-         "পাবনা": {
-             "জেলা": "পাবনা",
-             "উপজেলা": [
-                 "সুজানগর",
-                 "ঈশ্বরদী",
-                 "ভাঙ্গুড়া",
-                 "পাবনা সদর",
-                 "বেরা",
-                 "আটঘোরিয়া",
-                 "চাটমোহর",
-                 "সাঁথিয়া",
-                 "ফরিদপুর"
+         "Pabna": {
+             "District": "Pabna",
+             "Upazila": [
+                 "Sujanagar",
+                 "Ishwardi",
+                 "Bhangura",
+                 "Pabna Sadar",
+                 "Bera",
+                 "Atgharia",
+                 "Chatmohar",
+                 "Santhia",
+                 "Faridpur"
              ]
          },
-         "বগুড়া": {
-             "জেলা": "বগুড়া",
-             "উপজেলা": [
-                 "কাহালু",
-                 "বগুড়া সদর",
-                 "শরিয়াকান্দি",
-                 "শাজাহানপুর",
-                 "ধুপচাঁচিয়া",
-                 "আদমদীঘি",
-                 "নন্দিগ্রাম",
-                 "সোনাতলা",
-                 "ধুনোট",
-                 "গাবতলী",
-                 "শেরপুর",
-                 "শিবগঞ্জ"
+         "Bogura": {
+             "District": "Bogura",
+             "Upazila": [
+                 "Kahaloo",
+                 "Bogura Sadar",
+                 "Shariakandi",
+                 "Shajahanpur",
+                 "Dupchanchia",
+                 "Adamdighi",
+                 "Nondigram",
+                 "Sonatala",
+                 "Dhunat",
+                 "Gabtali",
+                 "Sherpur",
+                 "Shibganj"
              ]
          },
-         "নাটোর": {
-             "জেলা": "নাটোর",
-             "উপজেলা": [
-                 "নাটোরসাদর",
-                 "সিংড়া",
-                 "বড়াইগ্রাম",
-                 "বাগাতিপাড়া",
-                 "লালপুর",
-                 "গুরুদাসপুর",
-                 "নলডাঙ্গা"
+         "Natore": {
+             "District": "Natore",
+             "Upazila": [
+                 "Natore Sadar",
+                 "Singra",
+                 "Baraigram",
+                 "Bagatipara",
+                 "Lalpur",
+                 "Gurudaspur",
+                 "Naldanga"
              ]
          },
-         "জয়পুরহাট": {
-             "জেলা": "জয়পুরহাট",
-             "উপজেলা": [
-                 "আক্কেলপুর",
-                 "কালাই",
-                 "ক্ষেতলাল",
-                 "পাঁচবিবি",
-                 "জয়পুরহাট সদর"
+         "Joypurhat": {
+             "District": "Joypurhat",
+             "Upazila": [
+                 "Akkelpur",
+                 "Kalai",
+                 "Khetlal",
+                 "Panchbibi",
+                 "Joypurhat Sadar"
              ]
          },
-         "চাঁপাইনবাবগঞ্জ": {
-             "জেলা": "চাঁপাইনবাবগঞ্জ",
-             "উপজেলা": [
-                 "চাঁপাইনবাবগঞ্জ সদর",
-                 "গোমস্তাপুর",
-                 "নাচোল",
-                 "ভোলাহাট",
-                 "শিবগঞ্জ"
+         "Chapainawabganj": {
+             "District": "Chapainawabganj",
+             "Upazila": [
+                 "Chapainawabganj Sadar",
+                 "Gomostapur",
+                 "Nachol",
+                 "Bholahat",
+                 "Shibganj"
              ]
          },
-         "নওগাঁ": {
-             "জেলা": "নওগাঁ",
-             "উপজেলা": [
-                 "মহাদেবপুর",
-                 "বদলগাছি",
-                 "পত্নীতলা",
-                 "ধামইরহাট",
-                 "নিয়ামতপুর",
-                 "মান্ডা",
-                 "আত্রাই",
-                 "রানীনগর",
-                 "নওগাঁ সদর",
-                 "পোরশা",
-                 "সাপাহার"
+         "Naogaon": {
+             "District": "Naogaon",
+             "Upazila": [
+                 "Mahadevpur",
+                 "Badalgachhi",
+                 "Patnitala",
+                 "Dhamoirhat",
+                 "Niamatpur",
+                 "Manda",
+                 "Atrai",
+                 "Raninagar",
+                 "Naogaon Sadar",
+                 "Porsha",
+                 "Sapahar"
              ]
          }
      },
-     "খুলনা": {
-        "খুলনা": {
-            "জেলা": "খুলনা",
-            "উপজেলা": [
-                "বাটিয়াঘাটা",
-                "দাকোপ",
-                "দিঘলীয়া",
-                "ডুমুরিয়া",
-                "কয়রা",
-                "পাইকগাছা",
-                "ফুলতলা",
-                "তেরখাদা",
-                "রূপসা",
-                "খুলনা সিটি কর্পোরেশন"
+     "Khulna": {
+        "Khulna": {
+            "District": "Khulna",
+            "Upazila": [
+                "Batiaghata",
+                "Dacope",
+                "Dighalia",
+                "Dumuria",
+                "Koyra",
+                "Paikgachha",
+                "Phultala",
+                "Terokhada",
+                "Rupsa",
+                "Khulna City Corporation"
             ]
         },
-         "যশোর": {
-             "জেলা": "যশোর",
-             "উপজেলা": [
-                 "মণিরামপুর",
-                 "অভয়নগর",
-                 "বাঘেরপাড়া",
-                 "চৌগাছা",
-                 "ঝিকরগাছা",
-                 "কেশবপুর",
-                 "যশোর সদর",
-                 "শার্শা"
+         "Jashore": {
+             "District": "Jashore",
+             "Upazila": [
+                 "Manirampur",
+                 "Abhaynagar",
+                 "Bagherpara",
+                 "Chaugachha",
+                 "Jhikargachha",
+                 "Keshabpur",
+                 "Jashore Sadar",
+                 "Sharsha"
              ]
          },
-         "সাতক্ষীরা": {
-             "জেলা": "সাতক্ষীরা",
-             "উপজেলা": [
-                 "আসাশুনি",
-                 "দেবতা",
-                 "কলারোয়া",
-                 "সাতক্ষীরা সদর",
-                 "শ্যামনগর",
-                 "তালা",
-                 "কালীগঞ্জ"
+         "Satkhira": {
+             "District": "Satkhira",
+             "Upazila": [
+                 "Assasuni",
+                 "Debhata",
+                 "Kalaroa",
+                 "Satkhira Sadar",
+                 "Shyamnagar",
+                 "Tala",
+                 "Kaliganj"
              ]
          },
-         "মেহেরপুর": {
-             "জেলা": "মেহেরপুর",
-             "উপজেলা": [
-                 "মুজিবনগর",
-                 "মেহেরপুর সদর",
-                 "গাংনী"
+         "Meherpur": {
+             "District": "Meherpur",
+             "Upazila": [
+                 "Mujibnagar",
+                 "Meherpur Sadar",
+                 "Gangni"
              ]
          },
-         "নড়াইল": {
-             "জেলা": "নড়াইল",
-             "উপজেলা": [
-                 "নড়াইল সদর",
-                 "লোহাগাড়া",
-                 "কালিয়া"
+         "Narail": {
+             "District": "Narail",
+             "Upazila": [
+                 "Narail Sadar",
+                 "Lohagara",
+                 "Kalia"
              ]
          },
-         "চুয়াডাঙ্গা": {
-             "জেলা": "চুয়াডাঙ্গা",
-             "উপজেলা": [
-                 "চুয়াডাঙ্গা সদর",
-                 "আলমডাঙ্গা",
-                 "দামুড়হুদা",
-                 "জীবননগর"
+         "Chuadanga": {
+             "District": "Chuadanga",
+             "Upazila": [
+                 "Chuadanga Sadar",
+                 "Alamdanga",
+                 "Damurhuda",
+                 "Jibannagar"
              ]
          },
-         "কুষ্টিয়া": {
-             "জেলা": "কুষ্টিয়া",
-             "উপজেলা": [
-                 "কুষ্টিয়া সদর",
-                 "কুমারখালী",
-                 "খোকসা",
-                 "মিরপুর",
-                 "দৌলতপুর",
-                 "ভেড়ামারা"
+         "Kushtia": {
+             "District": "Kushtia",
+             "Upazila": [
+                 "Kushtia Sadar",
+                 "Kumarkhali",
+                 "Khoksa",
+                 "Mirpur",
+                 "Daulatpur",
+                 "Bheramara"
              ]
          },
-         "মাগুরা": {
-             "জেলা": "মাগুরা",
-             "উপজেলা": [
-                 "শালিখা",
-                 "শ্রীপুর",
-                 "মাগুরাসদর",
-                 "মোহাম্মদপুর"
+         "Magura": {
+             "District": "Magura",
+             "Upazila": [
+                 "Shalikha",
+                 "Sreepur",
+                 "Magura Sadar",
+                 "Mohammadpur"
              ]
          },
-         "বাগেরহাট": {
-             "জেলা": "বাগেরহাট",
-             "উপজেলা": [
-                 "ফকিরহাট",
-                 "বাগেরহাট সদর",
-                 "মোল্লাহাট",
-                 "শরণখোলা",
-                 "রামপাল",
-                 "মোরেলগঞ্জ",
-                 "কচুয়া",
-                 "মংলা",
-                 "চিতলমারী"
+         "Bagerhat": {
+             "District": "Bagerhat",
+             "Upazila": [
+                 "Fakirhat",
+                 "Bagerhat Sadar",
+                 "Mollahat",
+                 "Sarankhola",
+                 "Rampal",
+                 "Morelganj",
+                 "Kachua",
+                 "Mongla",
+                 "Chitalmari"
              ]
          },
-         "ঝিনাইদহ": {
-             "জেলা": "ঝিনাইদহ",
-             "উপজেলা": [
-                 "ঝিনাইদহ সদর",
-                 "শৈলকুপা",
-                 "হরিণাকুন্ডু",
-                 "কালীগঞ্জ",
-                 "কোটচাঁদপুর",
-                 "মহেশপুর"
+         "Jhenaidah": {
+             "District": "Jhenaidah",
+             "Upazila": [
+                 "Jhenaidah Sadar",
+                 "Shailkupa",
+                 "Harinakunda",
+                 "Kaliganj",
+                 "Kotchandpur",
+                 "Maheshpur"
              ]
          }
      },
-     "বরিশাল": {
-         "বরিশাল": {
-             "জেলা": "বরিশাল",
-             "উপজেলা": [
-                 "বরিশাল সিটি কর্পোরেশন",
-                 "বাকেরগঞ্জ",
-                 "বাবুগঞ্জ",
-                 "উজিরপুর",
-                 "বানারীপাড়া",
-                 "গৌরনদী",
-                 "আগাইলঝাড়া",
-                 "মেহেন্দিগঞ্জ",
-                 "মুলাদি",
-                 "হিজলা"
+     "Barisal": {
+         "Barisal": {
+             "District": "Barisal",
+             "Upazila": [
+                 "Barisal City Corporation",
+                 "Bakerganj",
+                 "Babuganj",
+                 "Wazirpur",
+                 "Banaripara",
+                 "Gournadi",
+                 "Agailjhara",
+                 "Mehendiganj",
+                 "Muladi",
+                 "Hizla"
              ]
          },
 
-         "ভোলা": {
-             "জেলা": "ভোলা",
-             "উপজেলা": [
-                 "ভোলা সদর",
-                 "বোরহানউদ্দিন",
-                 "চারফসন",
-                 "দৌলতখান",
-                 "মনপুরা",
-                 "তজুমুদ্দিন",
-                 "লালমোহন"
+         "Bhola": {
+             "District": "Bhola",
+             "Upazila": [
+                 "Bhola Sadar",
+                 "Borhanuddin",
+                 "Charfesson",
+                 "Daulatkhan",
+                 "Manpura",
+                 "Tazumuddin",
+                 "Lalmohan"
              ]
          },
-         "বরগুনা": {
-             "জেলা": "বরগুনা",
-             "উপজেলা": [
-                 "আমতলী",
-                 "বরগুনা সদর",
-                 "বেতাগী",
-                 "বামনা",
-                 "পাথরঘাটা",
-                 "তালতলী"
+         "Barguna": {
+             "District": "Barguna",
+             "Upazila": [
+                 "Amtali",
+                 "Barguna Sadar",
+                 "Betagi",
+                 "Bamna",
+                 "Patharghata",
+                 "Taltali"
              ]
          },
-         "ঝালকাঠি": {
-             "জেলা": "ঝালকাঠি",
-             "উপজেলা": [
-                 "ঝালকাঠি সদর",
-                 "কাঠালিয়া",
-                 "নালছিটি",
-                 "রাজাপুর"
+         "Jhalokati": {
+             "District": "Jhalokati",
+             "Upazila": [
+                 "Jhalokati Sadar",
+                 "Kathalia",
+                 "Nalchity",
+                 "Rajapur"
              ]
          },
-         "পটুয়াখালী": {
-             "জেলা": "পটুয়াখালী",
-             "উপজেলা": [
-                 "বাউফল",
-                 "পটুয়াখালী সদর",
-                 "দুমকি",
-                 "দশমিনা",
-                 "কলাপাড়া",
-                 "মির্জাগঞ্জ",
-                 "গলাচিপা",
-                 "রাঙ্গাবালি"
+         "Patuakhali": {
+             "District": "Patuakhali",
+             "Upazila": [
+                 "Bauphal",
+                 "Patuakhali Sadar",
+                 "Dumki",
+                 "Dashmina",
+                 "Kalapara",
+                 "Mirzaganj",
+                 "Galachipa",
+                 "Rangabali"
              ]
          },
-         "পিরোজপুর": {
-             "জেলা": "পিরোজপুর",
-             "উপজেলা": [
-                 "পিরোজপুর সদর",
-                 "নাজিরপুর",
-                 "কাউখালী",
-                 "ভান্ডারিয়া",
-                 "মঠবাড়িয়া",
-                 "নেসারাবাদ",
-                 "ইন্দুরকানি"
+         "Pirojpur": {
+             "District": "Pirojpur",
+             "Upazila": [
+                 "Pirojpur Sadar",
+                 "Nazirpur",
+                 "Kawkhali",
+                 "Bhandaria",
+                 "Mathbaria",
+                 "Nesarabad",
+                 "Indurkani"
              ]
          }
      },
-     "সিলেট": {
-         "সিলেট": {
-             "জেলা": "সিলেট",
-             "উপজেলা": [
-                 "বালাগঞ্জ",
-                 "বিয়ানীবাজার",
-                 "বিশ্বনাথ",
-                 "কোম্পানীগঞ্জ",
-                 "ফেঞ্চুগঞ্জ",
-                 "গোলাপগঞ্জ",
-                 "গোয়াইনঘাট",
-                 "জয়ন্তিয়াপুর",
-                 "কানাইঘাট",
-                 "সিলেটসদর",
-                 "জকিগঞ্জ",
-                 "দক্ষিণসুরমা",
-                 "ওসমানীনগর",
-                 "সিলেট সিটি কর্পোরেশন"
+     "Sylhet": {
+         "Sylhet": {
+             "District": "Sylhet",
+             "Upazila": [
+                 "Balaganj",
+                 "Beanibazar",
+                 "Bishwanath",
+                 "Companyganj",
+                 "Fenchuganj",
+                 "Golapganj",
+                 "Gowainghat",
+                 "Jaintiapur",
+                 "Kanaighat",
+                 "Sylhet Sadar",
+                 "Zakiganj",
+                 "Dakshin Surma",
+                 "Osmani Nagar",
+                 "Sylhet City Corporation"
              ]
          },
 
-         "মৌলভীবাজার": {
-             "জেলা": "মৌলভীবাজার",
-             "উপজেলা": [
-                 "বড়লেখা",
-                 "কমলগঞ্জ",
-                 "কুলাউড়া",
-                 "মৌলভীবাজার সদর",
-                 "রাজনগর",
-                 "শ্রীমঙ্গল",
-                 "জুরি"
+         "Moulvibazar": {
+             "District": "Moulvibazar",
+             "Upazila": [
+                 "Barlekha",
+                 "Kamalganj",
+                 "Kulaura",
+                 "Moulvibazar Sadar",
+                 "Rajnagar",
+                 "Sreemangal",
+                 "Juri"
              ]
          },
-         "হবিগঞ্জ": {
-             "জেলা": "হবিগঞ্জ",
-             "উপজেলা": [
-                 "নবীগঞ্জ",
-                 "বাহুবল",
-                 "আজমিরীগঞ্জ",
-                 "বানিয়াচং",
-                 "লাখাই",
-                 "চুনারুঘাট",
-                 "হবিগঞ্জ সদর",
-                 "মাধবপুর",
-                 "শায়েস্তাগঞ্জ"
+         "Habiganj": {
+             "District": "Habiganj",
+             "Upazila": [
+                 "Nabiganj",
+                 "Bahubal",
+                 "Ajmiriganj",
+                 "Baniachong",
+                 "Lakhai",
+                 "Chunarughat",
+                 "Habiganj Sadar",
+                 "Madhabpur",
+                 "Shayestaganj"
              ]
          },
-         "সুনামগঞ্জ": {
-             "জেলা": "সুনামগঞ্জ",
-             "উপজেলা": [
-                 "সুনামগঞ্জ সদর",
-                 "দক্ষিণসুনামগঞ্জ",
-                 "বিশ্বম্ভরপুর",
-                 "ছাতক",
-                 "জগন্নাথপুর",
-                 "দোয়ারাবাজার",
-                 "তাহিরপুর",
-                 "ধর্মপাশা",
-                 "জামালগঞ্জ",
-                 "শাল্লা",
-                 "দেরাই",
-                 "মধ্যনগর"
+         "Sunamganj": {
+             "District": "Sunamganj",
+             "Upazila": [
+                 "Sunamganj Sadar",
+                 "Dakshin Sunamganj",
+                 "Bishwambharpur",
+                 "Chatak",
+                 "Jagannathpur",
+                 "Dowarabazar",
+                 "Tahirpur",
+                 "Dharmapasha",
+                 "Jamalganj",
+                 "Shalla",
+                 "Derai",
+                 "Madhyanagar"
              ]
          }
      },
-     "ঢাকা": {
-         "ঢাকা": {
-             "জেলা": "ঢাকা",
-             "উপজেলা": [
-                "সাভার",
-                "ধামরাই",
-                "কেরানীগঞ্জ",
-                "নবাবগঞ্জ",
-                "দোহার",
-                "ঢাকা উত্তর সিটি কর্পোরেশন",
-                "ঢাকা দক্ষিন সিটি কর্পোরেশন"
+     "Dhaka": {
+         "Dhaka": {
+             "District": "Dhaka",
+             "Upazila": [
+                "Savar",
+                "Dhamrai",
+                "Keraniganj",
+                "Nawabganj",
+                "Dohar",
+                "Dhaka North City Corporation",
+                "Dhaka South City Corporation"
              ]
          },
-         "গাজীপুর": {
-             "জেলা": "গাজীপুর",
-             "উপজেলা": [
-                 "কালীগঞ্জ",
-                 "কালিয়াকৈর",
-                 "কাপাসিয়া",
-                 "গাজীপুর সদর",
-                 "শ্রীপুর"
+         "Gazipur": {
+             "District": "Gazipur",
+             "Upazila": [
+                 "Kaliganj",
+                 "Kaliakair",
+                 "Kapasia",
+                 "Gazipur Sadar",
+                 "Sreepur"
              ]
          },
-         "শরীয়তপুর": {
-             "জেলা": "শরীয়তপুর",
-             "উপজেলা": [
-                 "শরীয়তপুর সদর",
-                 "নড়িয়া",
-                 "জাজিরা",
-                 "গোসাইরহাট",
-                 "ভেদরগঞ্জ",
-                 "ডামুড্যা"
+         "Shariatpur": {
+             "District": "Shariatpur",
+             "Upazila": [
+                 "Shariatpur Sadar",
+                 "Naria",
+                 "Zajira",
+                 "Gosairhat",
+                 "Bhedarganj",
+                 "Damudya"
              ]
          },
-         "নারায়ণগঞ্জ": {
-             "জেলা": "নারায়ণগঞ্জ",
-             "উপজেলা": [
-                 "আড়াইহাজার",
-                 "বন্দর",
-                 "নারায়ণগঞ্জ সদর",
-                 "রূপগঞ্জ",
-                 "সোনারগাঁও"
+         "Narayanganj": {
+             "District": "Narayanganj",
+             "Upazila": [
+                 "Araihazar",
+                 "Bandar",
+                 "Narayanganj Sadar",
+                 "Rupganj",
+                 "Sonargaon"
              ]
          },
-         "টাঙ্গাইল": {
-             "জেলা": "টাঙ্গাইল",
-             "উপজেলা": [
-                 "বাসাইল",
-                 "ভূয়াপুর",
-                 "দেলদুয়ার",
-                 "ঘাটাইল",
-                 "গোপালপুর",
-                 "মধুপুর",
-                 "মির্জাপুর",
-                 "নাগরপুর",
-                 "সখীপুর",
-                 "টাঙ্গাইল সদর",
-                 "কালিহাতী",
-                 "ধনবাড়ী"
+         "Tangail": {
+             "District": "Tangail",
+             "Upazila": [
+                 "Basail",
+                 "Bhuapur",
+                 "Delduar",
+                 "Ghatail",
+                 "Gopalpur",
+                 "Madhupur",
+                 "Mirzapur",
+                 "Nagarpur",
+                 "Sakhipur",
+                 "Tangail Sadar",
+                 "Kalihati",
+                 "Dhanbari"
              ]
          },
-         "কিশোরগঞ্জ": {
-             "জেলা": "কিশোরগঞ্জ",
-             "উপজেলা": [
-                 "ইটনা",
-                 "কটিয়াদি",
-                 "ভৈরব",
-                 "তাড়াইল",
-                 "হোসেনপুর",
-                 "পাকুন্দিয়া",
-                 "কুলিয়ারচর",
-                 "কিশোরগঞ্জ সদর",
-                 "করিমগঞ্জ",
-                 "বাজিতপুর",
-                 "অস্টগ্রাম",
-                 "মিঠামইন",
-                 "নিকলি"
+         "Kishoreganj": {
+             "District": "Kishoreganj",
+             "Upazila": [
+                 "Itna",
+                 "Katiadi",
+                 "Bhairab",
+                 "Tarail",
+                 "Hossainpur",
+                 "Pakundia",
+                 "Kuliarchar",
+                 "Kishoreganj Sadar",
+                 "Karimganj",
+                 "Bajitpur",
+                 "Austagram",
+                 "Mithamain",
+                 "Nikli"
              ]
          },
-         "মানিকগঞ্জ": {
-             "জেলা": "মানিকগঞ্জ",
-             "উপজেলা": [
-                 "হরিরামপুর",
-                 "সাটুরিয়া",
-                 "মানিকগঞ্জ সদর",
-                 "জিওর",
-                 "শিবালয়",
-                 "দৌলতপুর",
-                 "সিঙ্গিয়ার"
+         "Manikganj": {
+             "District": "Manikganj",
+             "Upazila": [
+                 "Harirampur",
+                 "Saturia",
+                 "Manikganj Sadar",
+                 "Gior",
+                 "Shibalaya",
+                 "Daulatpur",
+                 "Singair"
              ]
          },
-         "নরসিংদী": {
-            "জেলা": "নরসিংদী",
-            "উপজেলা": [
-                "নরসিংদী বেলাবো",
-                "মনোহরদী",
-                "নরসিংদী সদর",
-                "পলাশ",
-                "রায়পুরা",
-                "শিবপুর"
+         "Narsingdi": {
+            "District": "Narsingdi",
+            "Upazila": [
+                "Narsingdi Belabo",
+                "Monohardi",
+                "Narsingdi Sadar",
+                "Palash",
+                "Raipura",
+                "Shibpur"
             ]
         },
-        "মুন্সিগঞ্জ": {
-            "জেলা": "মুন্সিগঞ্জ",
-            "উপজেলা": [
-                "মুন্সিগঞ্জ সদর",
-                "শ্রীনগর",
-                "সিরাজদিখান",
-                "লৌহজাঞ্জ",
-                "গজারিয়া",
-                "টঙ্গীবাড়ী"
+        "Munshiganj": {
+            "District": "Munshiganj",
+            "Upazila": [
+                "Munshiganj Sadar",
+                "Srinagar",
+                "Sirajdikhan",
+                "Louhajang",
+                "Gajaria",
+                "Tongibari"
             ]
         },
-        "রাজবাড়ী": {
-            "জেলা": "রাজবাড়ী",
-            "উপজেলা": [
-                "রাজবাড়ী সদর",
-                "গোয়ালন্দ",
-                "পাংসা",
-                "বালিয়াকান্দি",
-                "কালুখালী"
+        "Rajbari": {
+            "District": "Rajbari",
+            "Upazila": [
+                "Rajbari Sadar",
+                "Goalanda",
+                "Pangsa",
+                "Baliakandi",
+                "Kalukhali"
             ]
         },
-        "মাদারীপুর": {
-            "জেলা": "মাদারীপুর",
-            "উপজেলা": [
-                "মাদারীপুর সদর",
-                "শিবচর",
-                "কালকিনি",
-                "রাজির",
-                "দাসর"
+        "Madaripur": {
+            "District": "Madaripur",
+            "Upazila": [
+                "Madaripur Sadar",
+                "Shibchar",
+                "Kalkini",
+                "Rajoir",
+                "Dasar"
             ]
         },
-        "গোপালগঞ্জ": {
-            "জেলা": "গোপালগঞ্জ",
-            "উপজেলা": [
-                "গোপালগঞ্জ সদর",
-                "কাশিয়ানী",
-                "টুঙ্গিপাড়া",
-                "কোটালীপাড়া",
-                "মুকসুদপুর"
+        "Gopalganj": {
+            "District": "Gopalganj",
+            "Upazila": [
+                "Gopalganj Sadar",
+                "Kashiani",
+                "Tungipara",
+                "Kotalipara",
+                "Muksudpur"
             ]
         },
-        "ফরিদপুর": {
-            "জেলা": "ফরিদপুর",
-            "উপজেলা": [
-                "ফরিদপুর সদর",
-                "আলফাডাঙ্গা",
-                "বোয়ালমারি",
-                "সদরপুর",
-                "নগরকান্দা",
-                "ভাঙ্গা",
-                "চারভদ্রাসন",
-                "মধুখালী",
-                "সালথা"
+        "Faridpur": {
+            "District": "Faridpur",
+            "Upazila": [
+                "Faridpur Sadar",
+                "Alfadanga",
+                "Boalmari",
+                "Sadarpur",
+                "Nagarkanda",
+                "Bhanga",
+                "Charbhadrasan",
+                "Madhukhali",
+                "Saltha"
             ]
         }
     },
-    "রংপুর": {
-        "পঞ্চগড়": {
-            "জেলা": "পঞ্চগড়",
-            "উপজেলা": [
-                "পঞ্চগড় সদর",
-                "দেবীগঞ্জ",
-                "বোদা",
-                "আটোয়ারী",
-                "তেতুলিয়া",
-                "রংপুর সিটি কর্পোরেশন"
+    "Rangpur": {
+        "Panchagarh": {
+            "District": "Panchagarh",
+            "Upazila": [
+                "Panchagarh Sadar",
+                "Debiganj",
+                "Boda",
+                "Atwari",
+                "Tetulia",
+                "Rangpur City Corporation"
             ]   
         },
-        "দিনাজপুর": {
-            "জেলা": "দিনাজপুর",
-            "উপজেলা": [
-                "নবাবগঞ্জ",
-                "বীরগঞ্জ",
-                "ঘোড়াঘাট",
-                "বিরামপুর",
-                "পার্বতীপুর",
-                "বোচাগঞ্জ",
-                "কাহারোল",
-                "ফুলবাড়ি",
-                "দিনাজপুর সদর",
-                "হাকিমপুর",
-                "খানসামা",
-                "বিরল",
-                "চিরিরবন্দর"
+        "Dinajpur": {
+            "District": "Dinajpur",
+            "Upazila": [
+                "Nawabganj",
+                "Birganj",
+                "Ghoraghat",
+                "Birampur",
+                "Parbatipur",
+                "Bochaganj",
+                "Kaharol",
+                "Fulbari",
+                "Dinajpur Sadar",
+                "Hakimpur",
+                "Khansama",
+                "Birol",
+                "Chirirbandar"
             ]
         },
-        "লালমনিরহাট": {
-            "জেলা": "লালমনিরহাট",
-            "উপজেলা": [
-                "লালমনিরহাট সদর",
-                "কালীগঞ্জ",
-                "হাতিফান্ধা",
-                "পাটগ্রাম",
-                "আদিতমারী"
+        "Lalmonirhat": {
+            "District": "Lalmonirhat",
+            "Upazila": [
+                "Lalmonirhat Sadar",
+                "Kaliganj",
+                "Hatibandha",
+                "Patgram",
+                "Aditmari"
             ]
         },
-        "নীলফামারী": {
-            "জেলা": "নীলফামারী",
-            "উপজেলা": [
-                "সৈয়দপুর",
-                "ডোমার",
-                "ডিমলা",
-                "জলঢাকা",
-                "কিশোরগঞ্জ",
-                "নীলফামারী সদর"
+        "Nilphamari": {
+            "District": "Nilphamari",
+            "Upazila": [
+                "Syedpur",
+                "Domar",
+                "Dimla",
+                "Jaldhaka",
+                "Kishoreganj",
+                "Nilphamari Sadar"
             ]
         },
 
-        "গাইবান্ধা": {
-             "জেলা": "গাইবান্ধা",
-             "উপজেলা": [
-                 "সাদুল্লাপুর",
-                 "গাইবান্ধা সদর",
-                 "পলাশবাড়ী",
-                 "সাঘাটা",
-                 "গোবিন্দগঞ্জ",
-                 "সুন্দরগঞ্জ",
-                 "ফুলছড়ি"
+        "Gaibandha": {
+             "District": "Gaibandha",
+             "Upazila": [
+                 "Sadullapur",
+                 "Gaibandha Sadar",
+                 "Palashbari",
+                 "Saghata",
+                 "Gobindaganj",
+                 "Sundarganj",
+                 "Phulchhari"
              ]
          },
-         "ঠাকুরগাঁও": {
-             "জেলা": "ঠাকুরগাঁও",
-             "উপজেলা": [
-                 "ঠাকুরগাঁও সদর",
-                 "পীরগঞ্জ",
-                 "রানীশংকৈল",
-                 "হরিপুর",
-                 "বালিয়াডাঙ্গী"
+         "Thakurgaon": {
+             "District": "Thakurgaon",
+             "Upazila": [
+                 "Thakurgaon Sadar",
+                 "Pirganj",
+                 "Ranisankail",
+                 "Haripur",
+                 "Baliadangi"
              ]
          },
-         "রংপুর": {
-             "জেলা": "রংপুর",
-             "উপজেলা": [
-                 "রংপুর সদর",
-                 "গঙ্গাচড়া",
-                 "তারাগঞ্জ",
-                 "বদরগঞ্জ",
-                 "মিঠাপুকুর",
-                 "পীরগঞ্জ",
-                 "কাউনিয়া",
-                 "পীরগাছা"
+         "Rangpur": {
+             "District": "Rangpur",
+             "Upazila": [
+                 "Rangpur Sadar",
+                 "Gangachara",
+                 "Taraganj",
+                 "Badarganj",
+                 "Mithapukur",
+                 "Pirganj",
+                 "Kaunia",
+                 "Pirgachha"
              ]
          },
-         "কুড়িগ্রাম": {
-             "জেলা": "কুড়িগ্রাম",
-             "উপজেলা": [
-                 "কুড়িগ্রাম সদর",
-                 "নাগেশ্বরী",
-                 "ভুরুঙ্গামারী",
-                 "ফুলবাড়ী",
-                 "রাজারহাট",
-                 "উলিপুর",
-                 "চিলমারী",
-                 "রৌমারী",
-                 "চররাজিবপুর"
+         "Kurigram": {
+             "District": "Kurigram",
+             "Upazila": [
+                 "Kurigram Sadar",
+                 "Nageshwari",
+                 "Bhurungamari",
+                 "Phulbari",
+                 "Rajarhat",
+                 "Ulipur",
+                 "Chilmari",
+                 "Rowmari",
+                 "Char Rajibpur"
              ]
          }
      },
-     "ময়মনসিংহ": {
-         "ময়মনসিংহ": {
-             "জেলা": "ময়মনসিংহ",
-             "উপজেলা": [
-                 "ফুলবাড়িয়া",
-                 "ত্রিশাল",
-                 "ভালুকা",
-                 "মুক্তাগাছা",
-                 "ময়মনসিংহ সদর",
-                 "ধোবাউড়া",
-                 "ফুলপুর",
-                 "হালুয়াঘাট",
-                 "গৌরীপুর",
-                 "গফরগাঁও",
-                 "ঈশ্বরগঞ্জ",
-                 "নান্দাইল",
-                 "তারাকান্দা"
+     "Mymensingh": {
+         "Mymensingh": {
+             "District": "Mymensingh",
+             "Upazila": [
+                 "Fulbaria",
+                 "Trishal",
+                 "Bhaluka",
+                 "Muktagachha",
+                 "Mymensingh Sadar",
+                 "Dhobaura",
+                 "Fulpur",
+                 "Haluaghat",
+                 "Gouripur",
+                 "Gafargaon",
+                 "Ishwarganj",
+                 "Nandail",
+                 "Tarakanda"
              ]
          },
-         "শেরপুর": {
-             "জেলা": "শেরপুর",
-             "উপজেলা": [
-                 "শেরপুর সদর",
-                 "নালিতাবাড়ী",
-                 "শ্রীবর্দী",
-                 "নোকলা",
-                 "ঝিনাইগাতী"
+         "Sherpur": {
+             "District": "Sherpur",
+             "Upazila": [
+                 "Sherpur Sadar",
+                 "Nalitabari",
+                 "Sreebardi",
+                 "Nokla",
+                 "Jhenaigati"
              ]
          },
-         "জামালপুর": {
-             "জেলা": "জামালপুর",
-             "উপজেলা": [
-                 "জামালপুর সদর",
-                 "মেলান্দাহ",
-                 "ইসলামপুর",
-                 "দেওয়ানগঞ্জ",
-                 "সরিষাবাড়ী",
-                 "মাদারগঞ্জ",
-                 "বকশীগঞ্জ"
+         "Jamalpur": {
+             "District": "Jamalpur",
+             "Upazila": [
+                 "Jamalpur Sadar",
+                 "Melandah",
+                 "Islampur",
+                 "Dewanganj",
+                 "Sarishabari",
+                 "Madarganj",
+                 "Bakshiganj"
              ]
          },
-         "নেত্রকোনা": {
-             "জেলা": "নেত্রকোণা",
-             "উপজেলা": [
-                 "কলমাকান্দা","বারহাট্টা",
-                 "দুর্গাপুর",
-                 "কেন্দুয়া",
-                 "আটপাড়া",
-                 "মদন",
-                 "খালিয়াজুরী",
-                 "মোহনগঞ্জ",
-                 "পূর্বধলা",
-                 "নেত্রকোণা সদর"
+         "Netrokona": {
+             "District": "Netrokona",
+             "Upazila": [
+                 "Kalmakanda",
+                 "Barhatta",
+                 "Durgapur",
+                 "Kendua",
+                 "Atpara",
+                 "Madan",
+                 "Khaliajuri",
+                 "Mohanganj",
+                 "Purbadhala",
+                 "Netrokona Sadar"
              ]
          }
      }

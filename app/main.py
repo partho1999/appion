@@ -31,4 +31,17 @@ app.include_router(patient_router)
 
 @app.get("/")
 def read_root():
-    return {"message": "Welcome to Appion!"} 
+    return {
+        "message": "Welcome to Appion API!",
+        "version": "1.0.0",
+        "endpoints": {
+            "auth": "/api/v1/auth",
+            "user": "/api/v1/user", 
+            "address": "/api/address",
+            "appointment": "/api/v1/appointment",
+            "doctor": "/api/v1/doctor",
+            "dashboard": "/api/v1/dashboard",
+            "patient": "/api/v1/patient"
+        },
+        "docs": "/docs"
+    } 
