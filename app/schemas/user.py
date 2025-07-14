@@ -1,4 +1,4 @@
-from pydantic import BaseModel, EmailStr, validator
+from pydantic import BaseModel, EmailStr, validator, ConfigDict
 from pydantic import root_validator  # for v1 compatibility
 try:
     from pydantic import model_validator  # v2
@@ -23,6 +23,8 @@ class UserBase(BaseModel):
     consultation_fee: Optional[float] = None
     available_timeslots: Optional[str] = None  # Accept as comma-separated string
     specialization: Optional[str] = None
+
+    model_config = ConfigDict(use_enum_values=True)
 
 class UserCreate(UserBase):
     password: str
@@ -50,7 +52,7 @@ class UserCreate(UserBase):
                         raise ValueError(f'{field} is required for doctor registration')
             return values
     else:
-        @root_validator
+        @classmethod
         def validate_doctor_fields_v1(cls, values):
             if values.get('role') == UserRole.doctor:
                 for field in ['license_number', 'experience_years', 'consultation_fee', 'available_timeslots', 'specialization']:
@@ -58,6 +60,7 @@ class UserCreate(UserBase):
                     if val is None or (isinstance(val, str) and not val.strip()):
                         raise ValueError(f'{field} is required for doctor registration')
             return values
+        __pre_root_validators__ = [validate_doctor_fields_v1]
 
 class UserRead(UserBase):
     id: int
@@ -65,8 +68,7 @@ class UserRead(UserBase):
     created_at: Optional[datetime]
     updated_at: Optional[datetime]
 
-    class Config:
-        orm_mode = True
+    model_config = ConfigDict(from_attributes=True, use_enum_values=True)
 
 class UserLogin(BaseModel):
     email: EmailStr

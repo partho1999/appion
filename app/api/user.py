@@ -17,7 +17,7 @@ os.makedirs(UPLOAD_DIR, exist_ok=True)
 @router.get("/profile", response_model=UserRead)
 @envelope_endpoint
 async def get_profile(current_user: User = Depends(get_current_user)):
-    return current_user
+    return UserRead.from_orm(current_user)
 
 @router.put("/profile", response_model=UserRead)
 @envelope_endpoint
@@ -82,4 +82,4 @@ async def update_profile(
         db.add(current_user)
         await db.commit()
         await db.refresh(current_user)
-    return current_user 
+    return UserRead.from_orm(current_user) 
