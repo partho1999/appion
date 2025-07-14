@@ -11,14 +11,14 @@ from app.services.doctor import (
     get_doctor_statistics
 )
 from app.api.deps import get_current_user
-from app.schemas.user import DoctorScheduleUpdate
+from app.schemas.user import DoctorScheduleUpdate, UserRead
 from typing import Optional, List
 from datetime import datetime
 from app.api._response import envelope_endpoint
 
 router = APIRouter(prefix="/api/v1/doctors", tags=["doctors"])
 
-@router.get("/")
+@router.get("/", response_model=list[UserRead])
 @envelope_endpoint
 async def list_doctors(
     specialization: Optional[str] = Query(None),
@@ -49,7 +49,8 @@ async def list_doctors(
             query = query.where(User.available_timeslots.is_(None))
     query = query.offset(skip).limit(limit)
     result = await db.execute(query)
-    return result.scalars().all()
+    doctors = result.scalars().all()
+    return [UserRead.from_orm(doc) for doc in doctors]
 
 @router.get("/{doctor_id}/schedule")
 @envelope_endpoint

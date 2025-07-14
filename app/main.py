@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from app.api.auth import router as auth_router
 from app.api.user import router as user_router
 from app.api.address import router as address_router
@@ -13,6 +14,15 @@ from app.core.scheduler import start_scheduler
 import asyncio
 
 app = FastAPI(title="Appion Appointment Booking System")
+
+# CORS middleware setup
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Allow all origins for development
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.on_event("startup")
 def startup_event():
