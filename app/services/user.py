@@ -22,6 +22,11 @@ async def get_user_by_mobile(db: AsyncSession, mobile: str):
 
 async def create_user(db: AsyncSession, user_in: UserCreate):
     hashed_password = get_password_hash(user_in.password)
+    specialization = getattr(user_in, 'specialization', None)
+    if specialization is not None:
+        specialization = specialization.lower()
+    # Save available_timeslots as-is (string), preserving formatting and spaces
+    available_timeslots = getattr(user_in, 'available_timeslots', None)
     db_user = User(
         email=user_in.email,
         full_name=user_in.full_name,
@@ -35,7 +40,8 @@ async def create_user(db: AsyncSession, user_in: UserCreate):
         license_number=getattr(user_in, 'license_number', None),
         experience_years=getattr(user_in, 'experience_years', None),
         consultation_fee=getattr(user_in, 'consultation_fee', None),
-        available_timeslots=','.join(user_in.available_timeslots) if user_in.available_timeslots else None,
+        available_timeslots=available_timeslots,
+        specialization=specialization,
         is_active=True,
         is_superuser=False
     )

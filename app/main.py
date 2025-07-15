@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 from app.api.auth import router as auth_router
 from app.api.user import router as user_router
 from app.api.address import router as address_router
@@ -14,6 +15,9 @@ from app.core.scheduler import start_scheduler
 import asyncio
 
 app = FastAPI(title="Appion Appointment Booking System")
+
+# Mount static directory for profile images
+app.mount("/static", StaticFiles(directory="app/static"), name="static")
 
 # CORS middleware setup
 app.add_middleware(

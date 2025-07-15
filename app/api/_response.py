@@ -6,7 +6,20 @@ import json
 
 def api_response(data: Any = None, success: bool = True, error: Optional[str] = None, status_code: int = 200):
     # If data is a Pydantic model, convert to dict/json
-    if hasattr(data, "model_dump_json"):
+    if isinstance(data, list):
+        # Handle list of Pydantic models
+        new_data = []
+        for item in data:
+            if hasattr(item, "model_dump_json"):
+                new_data.append(json.loads(item.model_dump_json()))
+            elif hasattr(item, "model_dump"):
+                new_data.append(item.model_dump())
+            elif hasattr(item, "dict"):
+                new_data.append(item.dict())
+            else:
+                new_data.append(item)
+        data = new_data
+    elif hasattr(data, "model_dump_json"):
         # Pydantic v2: get JSON string, then parse to dict
         data = json.loads(data.model_dump_json())
     elif hasattr(data, "model_dump"):
