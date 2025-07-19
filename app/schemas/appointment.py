@@ -20,7 +20,7 @@ class AppointmentRead(AppointmentBase):
     updated_at: Optional[datetime]
 
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 class AppointmentStatusUpdate(BaseModel):
     status: AppointmentStatus 

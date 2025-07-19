@@ -49,7 +49,7 @@ async def book_appointment(
         raise HTTPException(status_code=400, detail="Doctor is not available at this time.")
     
     appointment = await create_appointment(db, current_user.id, appointment_in)
-    return appointment
+    return AppointmentRead.from_orm(appointment)
 
 @router.get("/", response_model=dict)
 @envelope_endpoint
@@ -79,6 +79,8 @@ async def list_appointments(
         skip=skip,
         limit=limit
     )
+    # Convert ORM objects to Pydantic models
+    result["appointments"] = [AppointmentRead.from_orm(a) for a in result["appointments"]]
     return result
 
 @router.patch("/{appointment_id}/status", response_model=AppointmentRead)
@@ -98,7 +100,8 @@ async def update_status(
         raise HTTPException(status_code=404, detail="Appointment not found.")
     
     updated = await update_appointment_status(db, appointment_id, status_update.status)
-    return updated
+    from app.schemas.appointment import AppointmentRead
+    return AppointmentRead.from_orm(updated)
 
 @router.delete("/{appointment_id}")
 @envelope_endpoint

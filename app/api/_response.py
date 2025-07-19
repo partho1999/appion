@@ -5,27 +5,20 @@ import json
 
 
 def api_response(data: Any = None, success: bool = True, error: Optional[str] = None, status_code: int = 200):
-    # If data is a Pydantic model, convert to dict/json
-    if isinstance(data, list):
-        # Handle list of Pydantic models
-        new_data = []
-        for item in data:
-            if hasattr(item, "model_dump_json"):
-                new_data.append(json.loads(item.model_dump_json()))
-            elif hasattr(item, "model_dump"):
-                new_data.append(item.model_dump())
-            elif hasattr(item, "dict"):
-                new_data.append(item.dict())
-            else:
-                new_data.append(item)
-        data = new_data
-    elif hasattr(data, "model_dump_json"):
-        # Pydantic v2: get JSON string, then parse to dict
-        data = json.loads(data.model_dump_json())
-    elif hasattr(data, "model_dump"):
-        data = data.model_dump()
-    elif hasattr(data, "dict"):
-        data = data.dict()
+    def serialize(obj):
+        if isinstance(obj, list):
+            return [serialize(item) for item in obj]
+        elif isinstance(obj, dict):
+            return {k: serialize(v) for k, v in obj.items()}
+        elif hasattr(obj, "model_dump_json"):
+            return json.loads(obj.model_dump_json())
+        elif hasattr(obj, "model_dump"):
+            return obj.model_dump()
+        elif hasattr(obj, "dict"):
+            return obj.dict()
+        else:
+            return obj
+    data = serialize(data)
     return JSONResponse(
         status_code=status_code,
         content={

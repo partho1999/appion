@@ -81,7 +81,8 @@ async def update_schedule(
     )
     if not updated_doctor:
         raise HTTPException(status_code=404, detail="Doctor not found.")
-    return updated_doctor
+    from app.schemas.user import UserRead
+    return UserRead.from_orm(updated_doctor)
 
 @router.get("/{doctor_id}/availability")
 @envelope_endpoint
@@ -111,6 +112,7 @@ async def get_my_appointments(
     if current_user.role != UserRole.doctor:
         raise HTTPException(status_code=403, detail="Doctors only.")
     from app.models.appointment import AppointmentStatus
+    from app.schemas.appointment import AppointmentRead
     status_enum = None
     if status:
         try:
@@ -126,6 +128,7 @@ async def get_my_appointments(
     )
     total = len(appointments)
     appointments = appointments[skip:skip + limit]
+    appointments = [AppointmentRead.from_orm(a) for a in appointments]
     return {
         "appointments": appointments,
         "total": total,
@@ -161,6 +164,7 @@ async def get_doctor_appointments_admin(
     if current_user.role != UserRole.admin:
         raise HTTPException(status_code=403, detail="Admins only.")
     from app.models.appointment import AppointmentStatus
+    from app.schemas.appointment import AppointmentRead
     status_enum = None
     if status:
         try:
@@ -176,6 +180,7 @@ async def get_doctor_appointments_admin(
     )
     total = len(appointments)
     appointments = appointments[skip:skip + limit]
+    appointments = [AppointmentRead.from_orm(a) for a in appointments]
     return {
         "appointments": appointments,
         "total": total,
