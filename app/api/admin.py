@@ -51,7 +51,10 @@ async def list_all_appointments(
         )
     query = query.offset(skip).limit(limit)
     result = await db.execute(query)
-    return result.scalars().all()
+    appointments = result.scalars().all()
+    from app.schemas.appointment import AppointmentRead
+    appointments = [AppointmentRead.from_orm(a) for a in appointments]
+    return appointments
 
 @router.patch("/appointments/{appointment_id}/status")
 @envelope_endpoint
@@ -95,7 +98,10 @@ async def list_all_doctors(
         query = query.where(User.full_name.ilike(f"%{search}%"))
     query = query.offset(skip).limit(limit)
     result = await db.execute(query)
-    return result.scalars().all()
+    doctors = result.scalars().all()
+    from app.schemas.user import UserRead
+    doctors = [UserRead.from_orm(doc) for doc in doctors]
+    return doctors
 
 @router.get("/patients")
 @envelope_endpoint
@@ -120,7 +126,10 @@ async def list_all_patients(
         query = query.where(User.full_name.ilike(f"%{search}%"))
     query = query.offset(skip).limit(limit)
     result = await db.execute(query)
-    return result.scalars().all()
+    patients = result.scalars().all()
+    from app.schemas.user import UserRead
+    patients = [UserRead.from_orm(p) for p in patients]
+    return patients
 
 @router.patch("/doctors/{doctor_id}/status")
 @envelope_endpoint
@@ -142,7 +151,8 @@ async def update_doctor_status(
     db.add(doctor)
     await db.commit()
     await db.refresh(doctor)
-    return doctor
+    from app.schemas.user import UserRead
+    return UserRead.from_orm(doctor)
 
 @router.get("/reports/monthly")
 @envelope_endpoint
@@ -245,6 +255,12 @@ async def generate_doctor_report(
     total_earnings = sum([doctor.consultation_fee or 0 for a in appointments if a.status == AppointmentStatus.completed])
     unique_patients = len(set([a.patient_id for a in appointments]))
     
+    # Convert datetimes to ISO format for JSON serialization
+    period = {
+        "start_date": start_date.isoformat() if start_date else None,
+        "end_date": end_date.isoformat() if end_date else None
+    }
+    
     return {
         "doctor_id": doctor.id,
         "doctor_name": doctor.full_name,
@@ -256,8 +272,5 @@ async def generate_doctor_report(
         "cancelled_appointments": cancelled_appointments,
         "total_earnings": total_earnings,
         "unique_patients": unique_patients,
-        "period": {
-            "start_date": start_date,
-            "end_date": end_date
-        }
+        "period": period
     } 
